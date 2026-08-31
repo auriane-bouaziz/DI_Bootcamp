@@ -193,5 +193,86 @@ WHERE avg_dpt.avg_salary = (
     ) AS dept_averages
 );
 
+-- Affiche les employés qui travaillent dans un département où il y a au moins un employé payé plus de 90000.
+
+SELECT
+    e.first_name,
+    e.last_name,
+    e.salary,
+    e.department_id
+FROM employees e
+WHERE EXISTS (
+    SELECT 1
+    FROM employees e2
+    WHERE e2.department_id = e.department_id
+      AND e2.salary > 90000
+);
+
+
+SELECT
+    e.first_name,
+    e.last_name,
+    e.salary,
+    e.department_id
+FROM employees e
+WHERE e.department_id IN (
+    SELECT department_id
+    FROM employees
+    GROUP BY department_id
+    HAVING MAX(salary) > 90000
+);
+
+-- Pour cet énoncé, je choisirais EXISTS, parce que les mots “il y a au moins un employé” correspondent exactement à : “does there exist an employee…?”
+
+-- Affiche les départements qui ont au moins deux employés.
+
+SELECT
+    d.department_id,
+    d.department_name
+FROM departments d
+WHERE EXISTS (
+    SELECT 1
+    FROM employees e
+    WHERE e.department_id = d.department_id
+    GROUP BY e.department_id
+    HAVING COUNT(e.employee_id) >= 2
+);
+
+SELECT
+    d.department_id,
+    d.department_name,
+    count_dep.employee_count
+FROM departments d
+JOIN (
+    SELECT
+        department_id,
+        COUNT(employee_id) AS employee_count
+    FROM employees
+    GROUP BY department_id
+) AS count_dep
+    ON d.department_id = count_dep.department_id
+WHERE count_dep.employee_count >= 2;
+
+
+-- Affiche les employés qui travaillent dans un département situé dans le même pays que le département Finance.	
+
+SELECT
+    e.first_name,
+    e.last_name,
+    e.salary,
+    e.department_id
+FROM employees e
+JOIN departments d
+    ON e.department_id = d.department_id
+JOIN locations l
+    ON d.location_id = l.location_id
+WHERE l.country = (
+    SELECT lf.country
+    FROM departments df
+    JOIN locations lf
+        ON df.location_id = lf.location_id
+    WHERE df.department_name = 'Finance'
+);
+
 
 
