@@ -1,0 +1,3540 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='3c5f71d621b9897e58cac2732affedc5ab1f6203ced4ff55ef96fcab9328e210' _.fcp.WorkbookFingerprinting.true...creator-author-id='3c5f71d621b9897e58cac2732affedc5ab1f6203ced4ff55ef96fcab9328e210' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='75551b2de05929303c78e1591dcaf469078ee377cb0ae19beec849dc23fbcb96' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='75551b2de05929303c78e1591dcaf469078ee377cb0ae19beec849dc23fbcb96' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='vgsales' inline='true' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='vgsales' name='textscan.09vnju40pbaclp18fnv5q1noorpd'>
+            <connection class='textscan' directory='Data/Video Game Sales' filename='vgsales.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.09vnju40pbaclp18fnv5q1noorpd' name='vgsales.csv' table='[vgsales#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr'>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='Platform' ordinal='2' />
+            <column datatype='integer' name='Year' ordinal='3' />
+            <column datatype='string' name='Genre' ordinal='4' />
+            <column datatype='string' name='Publisher' ordinal='5' />
+            <column datatype='real' name='NA_Sales' ordinal='6' />
+            <column datatype='real' name='EU_Sales' ordinal='7' />
+            <column datatype='real' name='JP_Sales' ordinal='8' />
+            <column datatype='real' name='Other_Sales' ordinal='9' />
+            <column datatype='real' name='Global_Sales' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NA_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>NA_Sales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EU_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EU_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>EU_Sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JP_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JP_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>JP_Sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Other_Sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Global_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Global_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Global_Sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Global - EU sales' datatype='real' name='[Calculation_3142582991921152]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Global_Sales] - [EU_Sales]' />
+      </column>
+      <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+      </column>
+      <column caption='EU Sales (bin)' datatype='integer' name='[EU Sales (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[EU_Sales]' peg='0' size='30' />
+      </column>
+      <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+      <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+      <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' type='quantitative' />
+      <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+      <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+      <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='vgsales.csv' datatype='table' name='[__tableau_internal_object_id__].[vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69]' role='measure' type='quantitative' />
+      <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_3142582991921152]' derivation='Sum' name='[sum:Calculation_3142582991921152:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[JP_Sales]' derivation='Sum' name='[sum:JP_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other_Sales]' derivation='Sum' name='[sum:Other_Sales:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Year (bin):ok]' palette='tableau10_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>396</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>400</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>399</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>404</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>402</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>398</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>401</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>397</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>403</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142582991921152:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:NA_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:JP_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:EU_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Other_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Publisher:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;10TACLE Studios&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Alvion&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Asmik Ace Entertainment&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;bitComposer Games&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cloud Imperium Games Corporation&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CyberFront&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DreamCatcher Interactive&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Epic Games&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;From Software&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Gathering of Developers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;GT Interactive&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Human Entertainment&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Interchannel-Holon&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kadokawa Shoten&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lexicon Entertainment&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mattel Interactive&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Midas Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Myelin Media&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nobilis&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;P2 Games&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Playlogic Game Factory&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rain Games&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SCi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SouthPeak Games&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Swing! Entertainment&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Telstar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TYO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Views&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Yacht Club Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Activision&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aerosoft&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aruze Corp&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BAM! Entertainment&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BushiRoad&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CPG Products&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Destineer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Elf&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Flashpoint Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Game Arts&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Gotham Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hect&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Imageworks&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jack of All Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kokopeli Digital Studios&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mamba Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mercury Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mojang&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Neko Entertainment&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;O-Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Phantagram&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Princess Soft&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Riverhillsoft&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Societa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Storm City Games&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TDK Core&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tomy Corporation&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ValuSoft&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Westwood Studios&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Alawar Entertainment&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ASCII Entertainment&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bethesda Softworks&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CCP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Crystal Dynamics&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DigiCube&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Enix Corporation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;fonfun&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gamecock&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gremlin Interactive Ltd&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HMH Interactive&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Indie Games&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;JoWood Productions&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Laguna&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Marvelous Interactive&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Micro Cabin&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MTV Games&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NewKidCo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nintendo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ongakukan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Piacci&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Quest&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Russel&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sony Computer Entertainment America&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunflowers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TechnoSoft&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Trion Worlds&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vatical Entertainment&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Xing Entertainment&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Namco Bandai Games&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;505 Games&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Acclaim Entertainment&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AQ Interactive&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Asylum Entertainment&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Blue Byte&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CokeM Interactive&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Daedalic Entertainment&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dusenberry Martin Racing&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Essential Games&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FunSoft&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ghostlight&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;HAL Laboratory&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Idea Factory&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Interworks Unlimited, Inc.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kando Games&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MC2 Entertainment&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Milestone S.r.l.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Natsume&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nippon Telenet&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Palcom&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Plenty&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Red Orb&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Seta Corporation&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Square EA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;System Soft&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;The Learning Company&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ubisoft Annecy&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Visco&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Yumedia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;20th Century Fox Video Games&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;American Softworks&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Asmik Corp&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Black Bean Games&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Coconuts Japan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cygames&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DreamWorks Interactive&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Epoch&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fuji&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;General Entertainment&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GungHo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;HuneX&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Intergrow&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kaga Create&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Licensed 4U&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Max Five&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Midway Games&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mystique&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nippon Amuse&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pacific Century Cyber Works&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Playmates&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rebellion&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Screenlife&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Spike&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Syscom&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tetris Online&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Type-Moon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vir2L Studios&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Yamasa Entertainment&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;3DO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Alchemist&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ASCII Media Works&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Big Ben Interactive&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CDV Software Entertainment&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CTO SpA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Disney Interactive Studios&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Enjoy Gaming ltd.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Foreign Media Games&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gameloft&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Griffin International&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Home Entertainment Suppliers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Infogrames&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Just Flight&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Legacy Interactive&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Masque Publishing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Microids&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mud Duck Productions&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nexon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Origin Systems&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pinnacle&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Quinrose&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sammy Corporation&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sony Computer Entertainment Europe&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sunrise Interactive&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tecmo Koei&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tripwire Interactive&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vic Tokai&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Xplosiv&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;THQ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Activision Value&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Arika&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Avanquest Software&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Brash Entertainment&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Conspiracy Entertainment&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Deep Silver&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ESP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Falcom Corporation&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Gainax Network Systems&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;GN Software&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Headup Games&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Image Epoch&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ivolgamus&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Knowledge Adventure&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Magix&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Men-A-Vision&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;mixi, Inc&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NEC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Number None&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Parker Bros.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pow&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Revolution Software&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SNK&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Starpath Corp.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Takuyo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Warp&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1C Company&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Agatsuma Entertainment&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ASC Games&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Banpresto&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Capcom&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Crave Entertainment&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Detn8 Games&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Elite&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Flight-Plan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Game Factory&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Graffiti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hello Games&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Imagic&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jaleco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Little Orbit&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Marvel Entertainment&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Merscom LLC&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Monte Christo Multimedia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NetRevo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ocean&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Phantom EFX&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prototype&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Rocket Company&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sold Out&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Strategy First&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TDK Mediactive&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TopWare Interactive&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Valve&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;White Park Bay Software&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Angel Studios&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Arena Entertainment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Avalon Interactive&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Boost On&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Compile&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Data East&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Edia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Experience Inc.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;G.Rev&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Global A Entertainment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hasbro Interactive&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Illusion Softworks&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Irem Software Engineering&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kids Station&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mad Catz&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Media Works&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Misawa&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NCSoft&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nordic Games&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Paradox Development&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Popcorn Arcade&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;responDESIGN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Slightly Mad Studios&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sony Computer Entertainment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Takara Tomy&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Titus&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Universal Gamex&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wargaming.net&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Zushi Games&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;5pb&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Alternative Software&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Asgard&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Big Fish Games&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ChunSoft&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Culture Brain&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dorart&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Enterbrain&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fortyfive&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GameMill Entertainment&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Groove Games&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hudson Entertainment&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Insomniac Games&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;JVC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LEGO Media&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mastertronic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Microprose&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mumbo Jumbo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nichibutsu&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Otomate&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Pioneer LDC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Quintet&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Saurus&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sony Music Entertainment&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sunsoft&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Telegames&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tru Blu Entertainment&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Victor Interactive&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;XS Games&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Accolade&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Aqua Plus&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Atari&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BMG Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Coleco&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Daito&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;EA Games&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Evolution Games&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Funsta&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Giga&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hamster Corporation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Idea Factory International&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Inti Creates&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Karin Entertainment&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Locus&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Media Entertainment&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Minato Station&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nitroplus&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Panther Software&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PM Studios&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Red Storm Entertainment&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Seventh Chord&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Square Enix&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;T&amp;E Soft&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TOHO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ubisoft&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;UEP Systems&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vivendi Games&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zenrin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;989 Sports&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ackkstudios&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Aques&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Athena&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bohemia Interactive&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Comfort&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Data Age&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Easy Interactive&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Evolved Games&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FuRyu&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Giza10&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Happinet&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;IE Institute&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Introversion Software&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kemco&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LSP Games&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Media Factory&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mindscape&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Naxat Soft&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Paon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pony Canyon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RedOctane&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Shogakukan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SquareSoft&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Taito&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tigervision&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;UFO Interactive&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wanadoo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Zoo Digital Publishing&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Activision Blizzard&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Aria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Avanquest&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BPS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Compile Heart&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Datam Polystar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Eidos Interactive&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Extreme Entertainment Group&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gaga&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Global Star&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Havas Interactive&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Imadio&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ITT Family Games&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;King Records&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Magical Company&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MediaQuest&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mitsui&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NDA Productions&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NovaLogic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Paradox Interactive&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PopTop Software&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Revolution (Japan)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Slitherine Software&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Starfish&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tivola&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Universal Interactive&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Warner Bros. Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Adeline Software&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ArtDink&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Axela&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Broccoli&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Core Design Ltd.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Destination Software, Inc&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Electronic Arts Victor&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fields&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Gakken&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GOA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hearty Robin&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;imageepoch Inc.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;iWin&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Koch Media&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Majesco Entertainment&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mentor Interactive&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MLB.com&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NEC Interchannel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;O3 Entertainment&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Performance Designed Products&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PQube&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rising Star Games&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SNK Playmore&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sting&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TalonSoft&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tommo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;WayForward Technologies&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;989 Studios&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Aspyr&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Black Label Games&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Codemasters&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;D3Publisher&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DSI Games&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ertain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Funbox Media&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Genki&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gust&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iceberg Interactive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Interplay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kalypso Media&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Konami Digital Entertainment&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lighthouse Interactive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Maximum Family Games&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Milestone&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nippon Columbia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pack In Soft&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Playmore&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rebellion Developments&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SCS Software&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SPS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;System 3&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TGL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;U.S. Gold&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Virgin Interactive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Yeti&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Sega&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7G//AMES&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Altron&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ASK&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bigben Interactive&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;City Interactive&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Culture Publishers&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;dramatic create&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EON Digital Entertainment&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fox Interactive&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GameTek&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GSP&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hudson Soft&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Interchannel&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kadokawa Games&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Level 5&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mastiff&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Microsoft Game Studios&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mycom&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nihon Falcom Corporation&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oxygen Interactive&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Play It&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Rage Software&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Scholastic Inc.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sony Online Entertainment&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sweets&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Telltale Games&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tryfirst&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Video System&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Xseed Games&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Agetec&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ascaron Entertainment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Benesse&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cave&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Creative Core&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Devolver Digital&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Electronic Arts&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Empire Interactive&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Focus Home Interactive&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Game Life&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Grand Prix Games&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Her Interactive&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Imagineer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jester Interactive&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kool Kizz&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Marvelous Entertainment&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Metro 3D&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Moss&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;New&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Office Create&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Phenomedia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Psygnosis&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Rondomedia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sonnet&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Success&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Team17 Software&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Touchstone&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Valve Software&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wizard Video Games&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Acquire&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Arc System Works&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Atlus&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bomb&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Commseed&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Data Design Interactive&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ecole&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Excalibur Publishing&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FuRyu Corporation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Glams&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Harmonix Music Systems&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ignition Entertainment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;inXile Entertainment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KID&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LucasArts&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Media Rings&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mirai Shounen&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NCS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nordcurrent&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Paon Corporation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PopCap Games&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Reef Entertainment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SSI&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Takara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Time Warner Interactive&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UIG Entertainment&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Warashi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Zoo Games&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;49Games&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Abylight&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Answer Software&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Astragon&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Blast! Entertainment Ltd&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Codemasters Online&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Daedalic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DTP Entertainment&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Funcom&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Genterprise&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hackberry&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;id Software&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Interplay Productions&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kamui&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Liquid Games&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Maxis&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Milestone S.r.l&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Navarre Corp&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nippon Ichi Software&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pack-In-Video&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PlayV&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;RED Entertainment&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Simon &amp; Schuster Interactive&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Square&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;System 3 Arcade Software&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;The Adventure Company&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Valcon Games&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Virtual Play Games&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yuke&apos;s&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Take-Two Interactive&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2D Boy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Aksys Games&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ascaron Entertainment GmbH&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Berkeley&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CBS Electronics&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Crimson Cow&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DHM Interactive&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Encore&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Focus Multimedia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gamebridge&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Graphsim Entertainment&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hip Interactive&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Imax&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Jorudan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;KSS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Marvelous Games&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Michaelsoft&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MTO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;New World Computing&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;On Demand&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Phoenix Games&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Quelle&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RTL&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Stainless Games&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Summitsoft&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Technos Japan Corporation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tradewest&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Vap&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Xicat Interactive&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Rank' />
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Platform' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Genre' />
+        <field-sort-custom-order field='Publisher' />
+        <field-sort-custom-order field='NA_Sales' />
+        <field-sort-custom-order field='EU_Sales' />
+        <field-sort-custom-order field='JP_Sales' />
+        <field-sort-custom-order field='Other_Sales' />
+        <field-sort-custom-order field='Global_Sales' />
+        <field-sort-custom-order field='Calculation_3142583938342913' />
+        <field-sort-custom-order field='Calculation_3142582991921152' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Year (bin)' />
+        <field-sort-custom-order field='EU Sales (bin)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='vgsales.csv' id='vgsales.csv_1F33D42BFC684ECA8AB0E07B722C7D69'>
+            <properties context=''>
+              <relation connection='textscan.09vnju40pbaclp18fnv5q1noorpd' name='vgsales.csv' table='[vgsales#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr'>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='string' name='Platform' ordinal='2' />
+                  <column datatype='integer' name='Year' ordinal='3' />
+                  <column datatype='string' name='Genre' ordinal='4' />
+                  <column datatype='string' name='Publisher' ordinal='5' />
+                  <column datatype='real' name='NA_Sales' ordinal='6' />
+                  <column datatype='real' name='EU_Sales' ordinal='7' />
+                  <column datatype='real' name='JP_Sales' ordinal='8' />
+                  <column datatype='real' name='Other_Sales' ordinal='9' />
+                  <column datatype='real' name='Global_Sales' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+      <datasources>
+        <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+        <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+          <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+        </column>
+        <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+        <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+        <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+          <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+        </column>
+        <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]'>
+        <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Calculation_3142583938342913])' function='order' user:ui-marker='order'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;10TACLE Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;1C Company&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;20th Century Fox Video Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;2D Boy&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;3DO&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;49Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;505 Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;5pb&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;7G//AMES&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;989 Sports&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;989 Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Abylight&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Acclaim Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Accolade&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ackkstudios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Acquire&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Activision&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Activision Blizzard&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Activision Value&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Adeline Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aerosoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Agatsuma Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Agetec&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aksys Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Alawar Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Alchemist&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Alternative Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Altron&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Alvion&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;American Softworks&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Angel Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Answer Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;AQ Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aqua Plus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aques&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Arc System Works&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Arena Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aria&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Arika&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ArtDink&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aruze Corp&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ASC Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ascaron Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ascaron Entertainment GmbH&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ASCII Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ASCII Media Works&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Asgard&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ASK&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Asmik Ace Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Asmik Corp&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Aspyr&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Astragon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Asylum Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Atari&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Athena&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Atlus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Avalon Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Avanquest&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Avanquest Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Axela&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;BAM! Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Banpresto&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Benesse&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Berkeley&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Bethesda Softworks&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Big Ben Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Big Fish Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Bigben Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;bitComposer Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Black Bean Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Black Label Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Blast! Entertainment Ltd&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Blue Byte&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;BMG Interactive Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Bohemia Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Bomb&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Boost On&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;BPS&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Brash Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Broccoli&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;BushiRoad&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Capcom&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Cave&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CBS Electronics&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CCP&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CDV Software Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ChunSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;City Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Cloud Imperium Games Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Coconuts Japan&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Codemasters&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Codemasters Online&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CokeM Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Coleco&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Comfort&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Commseed&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Compile&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Compile Heart&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Conspiracy Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Core Design Ltd.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CPG Products&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Crave Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Creative Core&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Crimson Cow&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Crystal Dynamics&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CTO SpA&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Culture Brain&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Culture Publishers&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;CyberFront&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Cygames&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;D3Publisher&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Daedalic&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Daedalic Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Daito&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Data Age&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Data Design Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Data East&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Datam Polystar&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Deep Silver&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Destination Software, Inc&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Destineer&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Detn8 Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Devolver Digital&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DHM Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DigiCube&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Disney Interactive Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Dorart&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;dramatic create&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DreamCatcher Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DreamWorks Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DSI Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;DTP Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Dusenberry Martin Racing&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;EA Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Easy Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ecole&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Edia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Eidos Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Electronic Arts&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Electronic Arts Victor&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Elf&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Elite&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Empire Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Encore&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Enix Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Enjoy Gaming ltd.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Enterbrain&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;EON Digital Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Epic Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Epoch&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ertain&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ESP&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Essential Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Evolution Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Evolved Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Excalibur Publishing&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Experience Inc.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Extreme Entertainment Group&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Falcom Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Fields&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Flashpoint Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Flight-Plan&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Focus Home Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Focus Multimedia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;fonfun&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Foreign Media Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Fortyfive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Fox Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;From Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Fuji&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Funbox Media&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Funcom&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;FunSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Funsta&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;FuRyu&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;FuRyu Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;G.Rev&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gaga&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gainax Network Systems&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gakken&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Game Arts&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Game Factory&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Game Life&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gamebridge&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gamecock&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gameloft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GameMill Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GameTek&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gathering of Developers&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;General Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Genki&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Genterprise&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ghostlight&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Giga&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Giza10&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Glams&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Global A Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Global Star&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GN Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GOA&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gotham Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Graffiti&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Grand Prix Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Graphsim Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gremlin Interactive Ltd&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Griffin International&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Groove Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GSP&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GT Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;GungHo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Gust&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hackberry&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;HAL Laboratory&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hamster Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Happinet&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Harmonix Music Systems&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hasbro Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Havas Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Headup Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hearty Robin&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hect&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hello Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Her Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hip Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;HMH Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Home Entertainment Suppliers&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hudson Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Hudson Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Human Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;HuneX&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Iceberg Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;id Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Idea Factory&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Idea Factory International&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;IE Institute&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ignition Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Illusion Softworks&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Imadio&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Image Epoch&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;imageepoch Inc.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Imageworks&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Imagic&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Imagineer&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Imax&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Indie Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Infogrames&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Insomniac Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Interchannel&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Interchannel-Holon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Intergrow&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Interplay&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Interplay Productions&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Interworks Unlimited, Inc.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Inti Creates&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Introversion Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;inXile Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Irem Software Engineering&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ITT Family Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ivolgamus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;iWin&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Jack of All Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Jaleco&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Jester Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Jorudan&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;JoWood Productions&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Just Flight&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;JVC&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kadokawa Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kadokawa Shoten&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kaga Create&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kalypso Media&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kamui&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kando Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Karin Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kemco&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;KID&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kids Station&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;King Records&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Knowledge Adventure&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Koch Media&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kokopeli Digital Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Konami Digital Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Kool Kizz&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;KSS&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Laguna&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Legacy Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;LEGO Media&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Level 5&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Lexicon Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Licensed 4U&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Lighthouse Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Liquid Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Little Orbit&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Locus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;LSP Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;LucasArts&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mad Catz&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Magical Company&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Magix&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Majesco Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mamba Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Marvel Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Marvelous Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Marvelous Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Marvelous Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Masque Publishing&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mastertronic&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mastiff&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mattel Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Max Five&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Maximum Family Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Maxis&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;MC2 Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Media Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Media Factory&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Media Rings&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Media Works&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;MediaQuest&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Men-A-Vision&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mentor Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mercury Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Merscom LLC&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Metro 3D&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Michaelsoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Micro Cabin&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Microids&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Microprose&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Microsoft Game Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Midas Interactive Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Midway Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Milestone&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Milestone S.r.l&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Milestone S.r.l.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Minato Station&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mindscape&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mirai Shounen&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Misawa&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mitsui&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;mixi, Inc&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;MLB.com&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mojang&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Monte Christo Multimedia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Moss&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;MTO&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;MTV Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mud Duck Productions&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mumbo Jumbo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mycom&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Myelin Media&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Mystique&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;N/A&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Namco Bandai Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Natsume&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Navarre Corp&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Naxat Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NCS&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NCSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NDA Productions&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NEC&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NEC Interchannel&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Neko Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NetRevo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;New&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;New World Computing&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NewKidCo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nexon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nichibutsu&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nihon Falcom Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nintendo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nippon Amuse&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nippon Columbia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nippon Ichi Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nippon Telenet&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nitroplus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nobilis&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nordcurrent&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Nordic Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;NovaLogic&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Number None&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;O-Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;O3 Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ocean&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Office Create&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;On Demand&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ongakukan&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Origin Systems&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Otomate&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Oxygen Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;P2 Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pacific Century Cyber Works&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pack In Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pack-In-Video&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Palcom&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Panther Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Paon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Paon Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Paradox Development&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Paradox Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Parker Bros.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Performance Designed Products&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Phantagram&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Phantom EFX&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Phenomedia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Phoenix Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Piacci&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pinnacle&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pioneer LDC&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Play It&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Playlogic Game Factory&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Playmates&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Playmore&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;PlayV&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Plenty&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;PM Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pony Canyon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;PopCap Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Popcorn Arcade&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;PopTop Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Pow&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;PQube&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Princess Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Prototype&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Psygnosis&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Quelle&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Quest&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Quinrose&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Quintet&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rage Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rain Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rebellion&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rebellion Developments&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;RED Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Red Orb&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Red Storm Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;RedOctane&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Reef Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;responDESIGN&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Revolution (Japan)&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Revolution Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rising Star Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Riverhillsoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rocket Company&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Rondomedia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;RTL&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Russel&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sammy Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Saurus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Scholastic Inc.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SCi&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Screenlife&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SCS Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sega&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Seta Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Seventh Chord&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Shogakukan&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Simon &amp; Schuster Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Slightly Mad Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Slitherine Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SNK&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SNK Playmore&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Societa&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sold Out&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sonnet&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sony Computer Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sony Computer Entertainment America&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sony Computer Entertainment Europe&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sony Music Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sony Online Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SouthPeak Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Spike&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SPS&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Square&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Square EA&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Square Enix&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SquareSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;SSI&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Stainless Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Starfish&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Starpath Corp.&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sting&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Storm City Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Strategy First&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Success&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Summitsoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sunflowers&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sunrise Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sunsoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Sweets&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Swing! Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Syscom&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;System 3&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;System 3 Arcade Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;System Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;T&amp;E Soft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Taito&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Takara&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Takara Tomy&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Take-Two Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Takuyo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TalonSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TDK Core&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TDK Mediactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Team17 Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Technos Japan Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TechnoSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tecmo Koei&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Telegames&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Telltale Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Telstar&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tetris Online&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TGL&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;The Adventure Company&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;The Learning Company&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;THQ&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tigervision&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Time Warner Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Titus&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tivola&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TOHO&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tommo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tomy Corporation&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TopWare Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Touchstone&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tradewest&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Trion Worlds&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tripwire Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tru Blu Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Tryfirst&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;TYO&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Type-Moon&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;U.S. Gold&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ubisoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Ubisoft Annecy&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;UEP Systems&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;UFO Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;UIG Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Universal Gamex&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Universal Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Unknown&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Valcon Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;ValuSoft&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Valve&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Valve Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Vap&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Vatical Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Vic Tokai&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Victor Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Video System&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Views&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Vir2L Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Virgin Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Virtual Play Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Visco&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Vivendi Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Wanadoo&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Warashi&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Wargaming.net&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Warner Bros. Interactive Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Warp&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;WayForward Technologies&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Westwood Studios&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;White Park Bay Software&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Wizard Video Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Xicat Interactive&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Xing Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Xplosiv&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;XS Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Xseed Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Yacht Club Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Yamasa Entertainment&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Yeti&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Yuke&apos;s&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Yumedia&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Zenrin&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Zoo Digital Publishing&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Zoo Games&quot;' />
+              <groupfilter function='member' level='[none:Publisher:nk]' member='&quot;Zushi Games&quot;' />
+            </groupfilter>
+          </groupfilter>
+        </groupfilter>
+        <target field='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:Year (bin):ok]' />
+          <groupfilter function='member' level='[none:Year (bin):ok]' member='%null%' />
+        </groupfilter>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='EU/US/GLOBAL sales evolution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Global - EU sales' datatype='real' name='[Calculation_3142582991921152]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Global_Sales] - [EU_Sales]' />
+            </column>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_3142582991921152]' derivation='Sum' name='[sum:Calculation_3142582991921152:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:EU_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142582991921152:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]' value='34' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]' />
+              <lod column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142582991921152:qk]' />
+              <lod column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='102' />
+                <format attr='maxwidth' value='102' />
+                <format attr='minheight' value='434' />
+                <format attr='maxheight' value='434' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[Multiple Values]</rows>
+        <cols>([federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok] / [federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{C8FB0A8C-447D-4345-97D4-843CDD403018}' />
+    </worksheet>
+    <worksheet name='Sales by Genre'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' />
+              <text column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]</cols>
+      </table>
+      <simple-id uuid='{CF7A73D3-C47E-45AF-B204-875F69614E52}' />
+    </worksheet>
+    <worksheet name='Sales by Region over time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Global - EU sales' datatype='real' name='[Calculation_3142582991921152]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Global_Sales] - [EU_Sales]' />
+            </column>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' type='quantitative' />
+            <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+            <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3142582991921152]' derivation='Sum' name='[sum:Calculation_3142582991921152:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JP_Sales]' derivation='Sum' name='[sum:JP_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other_Sales]' derivation='Sum' name='[sum:Other_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:EU_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142582991921152:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:JP_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:NA_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Other_Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[Multiple Values]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{1620F3BE-10A4-4320-8591-2CF2693A8DBA}' />
+    </worksheet>
+    <worksheet name='Sales by Top 10 Publishers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_3142583938342913]' derivation='Sum' name='[sum:Calculation_3142583938342913:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142583938342913:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Calculation_3142583938342913:qk]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</cols>
+      </table>
+      <simple-id uuid='{0F387C49-D2C1-4F2B-BA15-4F48776BEBAA}' />
+    </worksheet>
+    <worksheet name='Sales by genre over years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Platform:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;2600&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;3DO&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;3DS&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;DC&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;DS&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;GB&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;GBA&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;GC&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;GEN&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;GG&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;N64&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;NES&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;NG&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PC&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PCFX&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PS&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PS2&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PS3&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PS4&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PSP&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;PSV&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;SAT&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;SCD&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;SNES&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;TG16&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;Wii&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;WiiU&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;WS&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;X360&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;XB&quot;' />
+              <groupfilter function='member' level='[none:Platform:nk]' member='&quot;XOne&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Platform:nk]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{A08E632B-20E2-41E8-861F-7CD9CAFB0C2C}' />
+    </worksheet>
+    <worksheet name='Sales over the years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C7681969-0B27-4A3A-AF73-2E3AB736F1A0}' />
+    </worksheet>
+    <worksheet name='Scatterplot of EU and Global Sales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]</rows>
+        <cols>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:EU_Sales:qk]</cols>
+      </table>
+      <simple-id uuid='{842839A6-1367-4AD5-974E-BC784E2928FA}' />
+    </worksheet>
+    <worksheet name='Treemap of sales by publishers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+            <column caption='Profitability Index' datatype='real' name='[Calculation_3142583938342913]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Global_Sales] - ([Global_Sales] * 0.30)) / [Global_Sales]' />
+            </column>
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (bin)]' derivation='None' name='[none:Year (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]</column>
+            <column>[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' />
+              <color column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' />
+              <text column='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4411B6FC-B7A1-49FE-B2DC-5AD87C42B029}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='vgsales' name='federated.0lf8ha317vmt9b1a00adx1ytf0zl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0lf8ha317vmt9b1a00adx1ytf0zl'>
+        <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+        <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='18' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='16' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='41200' x='800' y='1000'>
+                <zone h='98000' id='5' type-v2='layout-basic' w='41200' x='800' y='1000'>
+                  <zone h='49000' id='3' name='Sales by genre over years' w='41200' x='800' y='1000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='49000' id='12' name='Sales by Region over time' w='41200' x='800' y='50000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='49000' id='13' name='Sales by Genre' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='15' name='Sales by Top 10 Publishers' w='41200' x='42000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='17' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='13875' id='19' mode='checkdropdown' name='Sales by Top 10 Publishers' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' type-v2='filter' values='database' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sales by genre over years' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='13' is-fixed='true' name='Sales by Genre' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='Sales by Region over time' w='41200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13875' id='19' mode='checkdropdown' name='Sales by Top 10 Publishers' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' type-v2='filter' values='database' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='15' is-fixed='true' name='Sales by Top 10 Publishers' w='41200' x='42000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{08B1D52A-6423-498B-ABB7-C616C3799EFE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sales by genre over years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9CAB78CD-8C3E-406E-A6E8-5C675A2B9A76}' />
+    </window>
+    <window class='worksheet' name='Sales over the years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{086F2103-2F6C-4639-9533-D215F4D68269}' />
+    </window>
+    <window class='worksheet' maximized='true' name='EU/US/GLOBAL sales evolution'>
+      <cards>
+        <edge name='left'>
+          <strip size='264'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='139'>
+            <card mode='checkdropdown' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Year (bin):ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{39E7488B-29A4-49D1-AFBD-13E79D3CB805}' />
+    </window>
+    <window class='worksheet' name='Sales by Top 10 Publishers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Publisher:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{70233D6C-39C6-4397-967A-3F43B5AEB2B9}' />
+    </window>
+    <window class='worksheet' name='Sales by Genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A46BD7B1-AE2F-4644-B7E7-41ABD65416D1}' />
+    </window>
+    <window class='worksheet' name='Sales by Region over time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{598A9FF2-CB24-4544-9706-4B1C89E3062F}' />
+    </window>
+    <window class='worksheet' name='Treemap of sales by publishers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[sum:Global_Sales:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B3675DB5-217A-4892-BFC1-C334ECD2C7F9}' />
+    </window>
+    <window class='worksheet' name='Scatterplot of EU and Global Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0lf8ha317vmt9b1a00adx1ytf0zl].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{89AE5A42-781D-4E3B-B8F8-B33EBBBE3811}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sales by Genre' />
+        <viewpoint name='Sales by Region over time'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales by Top 10 Publishers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales by genre over years'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{39A8C8BB-6832-4A28-983F-4C14E6379F36}' />
+    </window>
+  </windows>
+</workbook>
