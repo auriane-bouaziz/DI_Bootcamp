@@ -2,7 +2,8 @@
 -- Calculate the average budget growth rate for each production company across all movies they have produced. 
 -- Use window functions to determine the budget growth rate and then calculate the average growth rate.
 
-
+WITH budget_growth_rate AS (
+SELECT )
 
 -- 🌟 Task 2: Determine the Most Consistently High-Rated Actor
 -- Identify the actor who has appeared in the most movies that are rated above the average rating of all movies. 
